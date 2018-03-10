@@ -8,4 +8,4 @@ To use the Matlab implementation, you will need to compile the SRHT mex plugin. 
 cd mex/
 mex -v -g CFLAGS='-march=native -O3 -fPIC' srht.c tran_srht.c
 ```
-Then, you obtain the compiled 'srht.mex*' plugin, and copy it into the parent directory.
+Then, you obtain the compiled 'srht.mex*' plugin, and copy it into the parent directory. A pre-compiled plugin for 64-bit Linux is provided.
