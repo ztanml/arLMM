@@ -1,7 +1,7 @@
 # arLMM
 Approximate Ridge Linear Mixed Models (arLMM)
 
-## Example: Fitting an LMM on synthetically generate data
+## Example: Fitting an LMM on randomly generated data
 ```matlab
 % Generate synthetic data
 n = 1000; % 1000 observations
