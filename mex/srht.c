@@ -3,7 +3,6 @@
 #include <time.h>
 #include "tran_srht.h"
 #include "mex.h"
-#include "matrix.h"
 
 /* The gateway function */
 void mexFunction( int nlhs, mxArray *plhs[],

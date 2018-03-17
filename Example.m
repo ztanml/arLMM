@@ -17,4 +17,4 @@ pause(3);
 disp('[Real_noise_var  Estimated_noise_var]:')
 disp([s2 ests2]);
 pause(3);
-disp("Corr(Real_Beta,Estimated_Beta):" + num2str(corr(Beta,estBeta)));
+disp(strcat("Corr(Real_Beta,Estimated_Beta):", num2str(corr(Beta,estBeta))));
