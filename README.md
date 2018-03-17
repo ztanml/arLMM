@@ -59,10 +59,5 @@ cd mex/
 mkoctfile --mex srht.c tran_srht.c
 ```
 
-### For Python
-To build the SRHT plugin for Python, you will need to compile the SRHT C code into a shared library, and the srht.py calls the compiled C function. For example, on Linux:
-```bash
-cd mex/
-gcc -shared -fPIC -O3 -Wl,-soname,libsrht.so tran_srht.c -o libsrht.so
-```
-The above commands produce a shared library libsrht.so, and you will copy it into the parent directory.
+### For C/C++:
+We used Matlab to generate a C shared library under c_dist/.
