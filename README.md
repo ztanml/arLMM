@@ -60,4 +60,4 @@ mkoctfile --mex srht.c tran_srht.c
 ```
 
 ### For C/C++:
-We used Matlab to generate a C shared library under c_dist/.
+We used Matlab to generate a C shared library under c_dist/. The c_dist/MatlabRuntime.install is provided by Matlab 2017b which includes necessary runtime libraries.
