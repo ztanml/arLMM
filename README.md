@@ -1,7 +1,7 @@
 # arLMM
 Approximate Ridge Linear Mixed Models (arLMM)
 
-Code for our paper "Scalable Algorithms for Learning High-Dimensional Linear Mixed Models": https://arxiv.org/pdf/1803.04431.pdf
+Code for our UAI 2018 paper "Scalable Algorithms for Learning High-Dimensional Linear Mixed Models": https://arxiv.org/pdf/1803.04431.pdf
 
 ## Example: Fitting an LMM on randomly generated data
 ```matlab
